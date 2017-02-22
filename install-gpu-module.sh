@@ -8,5 +8,5 @@ echo "Copy python_module config files"
 sudo cp -r ${nv_module_root}/conf.d /etc/ganglia/
 
 sudo cp /etc/ganglia/gmond.conf /etc/ganglia/gmond.conf.bak
-sudo cp ./gmond-gpu.conf /etc/ganglia/
+sudo cp ./gmond-gpu.conf /etc/ganglia/gmond.conf
 sudo /etc/init.d/ganglia-monitor restart
